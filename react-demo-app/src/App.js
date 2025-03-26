@@ -1,3 +1,5 @@
+import Header from "./components/Header"
+import Footer from "./components/Footer"
 function App() {
   
     //functions 
@@ -51,7 +53,7 @@ function App() {
             <p></p>
             <button onClick={btndemo1}>button demo 1</button>
             <p></p>
-            <Footer></Footer>
+            <Footer title="footer" year={2025}></Footer>
         </div>
       </>
   );
