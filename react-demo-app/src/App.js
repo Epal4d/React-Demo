@@ -28,7 +28,7 @@ function App() {
 
     <>
       <div>
-          <Header/>
+          <Header title="React Demo App v3"></Header>
           <p></p>
           <a href="#" onClick={lnkdemo1}>link demo 1</a>
           <p></p>
